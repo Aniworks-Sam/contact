@@ -1,0 +1,74 @@
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+/* To specify background color and font size */
+.e-input-group .e-input-group-icon:last-child, .e-input-group.e-control-wrapper .e-input-group-icon:last-child {
+  font-size: 12px;
+  background-color: blue;
+}
+
+.e-date-wrapper .e-datepicker .e-date-icon{
+  color: #2196f3;
+}
+
+.forms{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.control {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.control label {
+  font-weight: bold;
+}
+
+.control input {
+  font: inherit;
+  color: #0d3c61;
+  border-radius: 4px;
+  border: 1px solid #90cbf9;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #0d3c61;
+}
+
+.notes{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.p{
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.p:hover{
+  text-decoration: underline;
+}
+
+.textarea{
+  width: 25%;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.btn{
+  display: flex;
+  gap: 2rem;
+}
+
+.date:focus{
+  border-bottom: #2196f3;
+  outline: #2196f3;
+}

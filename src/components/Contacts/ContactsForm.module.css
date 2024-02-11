@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.avatar{
+  width: 8rem;
+  height: 8rem;
+  font-size: 3.5rem;
+}
